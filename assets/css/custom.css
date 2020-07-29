@@ -1,0 +1,12 @@
+
+.hidden{
+    display: none !important;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .hidden {
+      display: block !important;
+      position:fixed;bottom:0;
+      width: 100%;
+      margin: auto;
+    }
+}
